@@ -43,7 +43,21 @@
       <section class="page-section mb-4" id="text">
          <div class="container">
             <div class="row">
-               <div class="col-md-6 pr-4"><img height="650px" src="https://raw.githubusercontent.com/RinconeteyCortadillo/home/master/dist/FacsimileImages/66.jpg"></div>
+               <div class="col-md-6 pr-4">
+                  <div id="openseadragon" style="width: 800px; height: 600px;"></div><script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script><script type="text/javascript">
+									var viewer = OpenSeadragon({
+									id: "openseadragon",
+									prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+									tileSources:   [{
+									type: "zoomifytileservice",
+									width: 7026,
+									height: 9221,
+									tilesUrl: "FacsimileTiles/66/",
+									tileSize: 256,
+									fileFormat: 'jpg',
+									}]
+									});
+								</script></div>
                <div class="col-md-6 pl-4">
                   <h2>NOVELA DE RINCONETE Y CORTADILLO.</h2>
                   <p style="font-size:13pt">En la venta del Molinillo, que está puesta en los fines de los famosos campos de Alcudia,
