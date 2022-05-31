@@ -43,19 +43,17 @@
       <section class="page-section mb-4" id="text">
          <div class="container">
             <div class="row">
-               <div class="col-md-6 pr-4">
-                  <div id="openseadragon" style="width: 500px; height: 700px;"></div><script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script><script type="text/javascript">
-									var viewer = OpenSeadragon({
+               <div class="col-md-6 pr-4" id="openseadragon" style="width:500px"><script type="text/javascript">
+									OpenSeadragon({
 									id: "openseadragon",
 									prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+									showNavigator: true,
 									tileSources:   [{
-									type: "zoomifytileservice",
-									width: 7026,
-									height: 9221,
-									tilesUrl: "/DigitalEditionHTMLs/FacsimileTiles/66/",
-									tileSize: 256,
-									fileFormat: 'jpg'
-									}]
+										type: "zoomifytileservice",
+										width: 7026,
+										height: 9221,
+										tilesUrl: "/DigitalEditionHTMLs/FacsimileTiles/66/"
+										}]
 									});
 								</script></div>
                <div class="col-md-6 pl-4">
