@@ -69,9 +69,29 @@
 			<hr>
 			<h1 style="font-family:RCFont" class="text-center">Digital Edition</h1>
 			<h5 style="font-family:RCFont">Basic TEI Mark-Up</h5>
-                        <p>XXXX</p>
-                        <p>XXXXX</p>
-                        <p>XXXXX</p><br>
+                        <p>The first step in preparing the text for this project was to carry out a process of basic TEI mark-up. TEI stands for the Text Encoding Initiative and represents an attempt to standardise the XML mark-up of literary texts, focusing on the semantics of texts, rather than their presentational characteristics. As such, the TEI guidelines outline a set of XML elements, and corresponding attributes, which can be used to mark-up different kinds of texts, whether that be prose, poetry, or drama.</p>
+                        <p>The least complex of these sets is for prose, as prose writing does not contain separate verses or stanzas written in different meters (poetry), or abrupt shifts from one speaker to another (drama).</p>
+			<p>In terms of the body of the text of the story, at this stage, I decided to focus on only basic elements of the mark-up of prose texts. This included using the following elements:</p>
+			 <ul>
+				<li>The TEI &lt;head&gt; element to mark the title of the story</li>
+				<li>The TEI &lt;p&gt; element to mark new paragraphs of text</li>
+				<li>The TEI &lt;q&gt; element to mark when a character was speaking</li>
+				<li>The TEI &lt;quote&gt; element to mark when the text, usually but not always spoken, was taken from a different source (e.g. a book within the story or a song)</li>
+			</ul>
+			<p>Having marked-up the whole of the text, both Spanish and English, I then created separate TEI files for the different chunks of text, corresponding with the facsimile images of the first edition. This step comprised creating 40 different TEI files for each of the 40 facsimile images. Several additional steps were required at this stage:</p>
+                        <ul>
+				<li>The inclusion of the mandatory TEI &lt;teiHeader&gt; element, including the obligatory &lt;fileDesc&gt; element (to describe the bibliographic source of the TEI file) and the optional &lt;encodingDesc&gt; element (to provide extra information on how the source had been marked-up</li>
+				<li>The inclusion of the optional &lt;facsimile&gt; and &lt;graphic> elements between the &lt;teiHeader&gt; and &lt;text&gt; elements to represent the facsimile image source of the text</li>
+				<li>The inclusion of Spanish and English text alongside each other, separated into different &lt;div&gt; elements and identified by the @xml:id=“es” or @xml:id=“en” attribute</li>
+			</ul>
+
+			    <p>Below is an example of one of these TEI files.</p><br>
+			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#ExampleTei">Simple collapsible</button>
+  			<div id="ExampleTei" class="collapse in">
+				<script src="https://gist.github.com/RebeccaJillianBeattie/834dab4b4fb70be147114b05024424d3.js"></script>
+  			</div>
+
+			
 			<h5 style="font-family:RCFont">XSLT: TEI to HTML</h5>
                         <p>XXXXX</p>
                         <p>XXXXX</p>
