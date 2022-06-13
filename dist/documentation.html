@@ -88,10 +88,28 @@
 			<script src="https://gist.github.com/RebeccaJillianBeattie/834dab4b4fb70be147114b05024424d3.js"></script>
   			<br>
 			
-			<h5 style="font-family:RCFont">XSLT: TEI to HTML</h5>
-                        <p>XXXXX</p>
-                        <p>XXXXX</p>
-                        <p>XXXXX</p><br>
+			<h5 style="font-family:RCFont">XSLT: TEI to HTML (Using XPath)</h5>
+                        <p>The next step towards creating the Rinconete y Cortadillo Digital Edition was to create an XSLT file. XSLT is a language for transforming XML documents into other XML documents. In this case, I needed to transform my 40 TEI files into HTML files, in order to be able to upload and display their content on the Web.</p>
+			<p>In order to create an XSLT file, the TEI XML elements need to be mapped onto suitable HTML XML elements. We reference the TEI elements using XPath – a language to describe how to locate a particular part of an XML document, based on XML’s fundamental tree-of-nodes structure. Furthermore, the desired lay-out of the HTML page needs to be taken into consideration.</p>
+			<p>Since, at this stage, my TEI mark-up was basic, the use of XPath within the XSLT was relatively simple:</p>
+                       	<ul>
+				<li>“//tei:facsimile/tei:graphic/@url” was used to navigate the TEI document and retrieve the path of the facsimile image</li>
+				<li>“//tei:text/tei:body/tei:div[@xml:lang=‘es’]” and “//tei:text/tei:body/tei:div[@xml:lang=‘en’]” were used to identify the sections of Spanish and English text</</li>
+				<li>“//tei:text/tei:body/tei:div[[@xml:lang=‘es’]/tei:head” and “//tei:text/tei:body/tei:div[@xml:lang=‘en’]/tei:head” were used to identify the text’s titles in both Spanish and English</li>
+				<li>“//tei:text/tei:body/tei:div[[@xml:lang=‘es’]/tei:p” and “//tei:text/tei:body/tei:div[@xml:lang=‘en’]/tei:p” were used to locate paragraphs</li>
+				<li>“//tei:text/tei:body/tei:div[[@xml:lang=‘es’]/tei:quote” and “//tei:text/tei:body/tei:div[@xml:lang=‘en’]/tei:quote” were used to locate the parts of the texts which are quoted from other sources</li>
+				<li>No XPath query was necessary to locate TEI &lt;q&gt; elements as these were always contained within TEI &lt;p&gt; elements</li>
+			</ul>
+			<p>Having located these elements of the TEI document, the XSLT templates gave instructions to perform the following transformations:</p>
+                        <ul>
+				<li>To transform a TEI &lt;head&gt; element into an HTML &lt;h2&gt; element</li>
+				<li> To transform a TEI &lt;p&gt; element into an HTML &lt;p&gt; element of font-size 13pt</li>
+				<li> To transform a TEI &lt;quote&gt; element into an HTML &lt;i&gt; element in order for the text to appear in italics </li>
+				<li>Instructions were also given to ignore the contents of the TEI &lt;teiHeader&gt; element via the XPath “//tei:teiHeader”</li>
+			</ul>
+			<p>The XSLT template applied to all 40 TEI files can be seen below, obscured somewhat by the necessity of including Bootstrap style information.</p>
+			<script src="https://gist.github.com/RebeccaJillianBeattie/b0d9acd3bea63e2e622e4582d30aaf27.js"></script><br>
+			    
 			<h5 style="font-family:RCFont">Open Sea Dragon Image Viewer</h5>
                         <p>XXXXX</p>
                         <p>XXXXX</p>
