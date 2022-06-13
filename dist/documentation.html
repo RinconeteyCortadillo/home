@@ -85,9 +85,9 @@
 				<li>The inclusion of Spanish and English text alongside each other, separated into different &lt;div&gt; elements and identified by the @xml:lang=“es” or @xml:lang=“en” attribute</li>
 			</ul>
 			<p>Below is an example of one of these TEI files.</p>
-			 <div style="height:600px; overflow:auto">
-			<script src="https://gist.github.com/RebeccaJillianBeattie/834dab4b4fb70be147114b05024424d3.js"></script><br>
-			</div>
+			 <div style="height:450px; overflow:auto">
+			<script src="https://gist.github.com/RebeccaJillianBeattie/834dab4b4fb70be147114b05024424d3.js"></script>
+			</div><br>
 			   
 			<h5 style="font-family:RCFont">XSLT: TEI to HTML (Using XPath)</h5>
                         <p>The next step towards creating the Rinconete y Cortadillo Digital Edition was to create an XSLT file. XSLT is a language for transforming XML documents into other XML documents. In this case, I needed to transform my 40 TEI files into HTML files, in order to be able to upload and display their content on the Web.</p>
@@ -109,7 +109,9 @@
 				<li>Instructions were also given to ignore the contents of the TEI &lt;teiHeader&gt; element via the XPath “//tei:teiHeader”</li>
 			</ul>
 			<p>The XSLT template applied to all 40 TEI files can be seen below, obscured somewhat by the necessity of including Bootstrap style information.</p>
-			<script src="https://gist.github.com/RebeccaJillianBeattie/b0d9acd3bea63e2e622e4582d30aaf27.js"></script><br>
+			<div style="height:450px; overflow:auto">
+			    <script src="https://gist.github.com/RebeccaJillianBeattie/b0d9acd3bea63e2e622e4582d30aaf27.js"></script><br>
+			</div><br>
 			    
 			<h5 style="font-family:RCFont">Open Sea Dragon Image Viewer</h5>
                         <p>The image viewer Open Sea Dragon was chosen to present the facsimile images of the first edition of the text. Open Sea Dragon is an open-source, web-based viewer for high-resolution, zoomable images. This viewer was chosen, over Mirador for example, due to its streamlined interface, which gives precedence to the image itself and does not impose obtrusive user controls at the side of the image.</p>
@@ -136,8 +138,10 @@
 				<li>The geographical longitude and latitude co-ordinates of the location, contained within the &lt;Point&gt; and then the &lt;coordinates&gt; elements</li>
 			</ul>
 			<p>This KML file can be viewed below.</p>
+			<div style="height:450px; overflow:auto">
 			<script src="https://gist.github.com/RebeccaJillianBeattie/18c0155ef2cb75d5319f31ef1e8066c4.js"></script><br>
-			
+			</div><br>
+				
 			<h5 style="font-family:RCFont">Google Maps</h5>
                         <p>Once the KML file has been written the process of creating a customised Google Map is simple: upload the KML file into Google Maps, set the map as public, and copy the HTML embed code provided by Google.</p>
 		   	<hr>
