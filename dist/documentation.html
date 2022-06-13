@@ -85,9 +85,17 @@
 				<li>The inclusion of Spanish and English text alongside each other, separated into different &lt;div&gt; elements and identified by the @xml:lang=“es” or @xml:lang=“en” attribute</li>
 			</ul>
 			<p>Below is an example of one of these TEI files.</p>
-			<script src="https://gist.github.com/RebeccaJillianBeattie/834dab4b4fb70be147114b05024424d3.js"></script>
-  			<br>
-			
+			<div class="panel panel-default">
+    				<div class="panel-heading" id="ExampleTEI" role="tab" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+        				<h4 class="panel-title">Example TEI File</h4>
+    				</div>
+    				<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="ExampleTEI">
+        				<div class="panel-body">
+            					<script src="https://gist.github.com/RebeccaJillianBeattie/834dab4b4fb70be147114b05024424d3.js"></script>
+        				</div>
+    				</div>
+			</div><br>
+
 			<h5 style="font-family:RCFont">XSLT: TEI to HTML (Using XPath)</h5>
                         <p>The next step towards creating the Rinconete y Cortadillo Digital Edition was to create an XSLT file. XSLT is a language for transforming XML documents into other XML documents. In this case, I needed to transform my 40 TEI files into HTML files, in order to be able to upload and display their content on the Web.</p>
 			<p>In order to create an XSLT file, the TEI XML elements need to be mapped onto suitable HTML XML elements. We reference the TEI elements using XPath – a language to describe how to locate a particular part of an XML document, based on XML’s fundamental tree-of-nodes structure. Furthermore, the desired lay-out of the HTML page needs to be taken into consideration.</p>
