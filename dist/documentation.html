@@ -80,7 +80,7 @@
 			</ul>
 			<p>Having marked-up the whole of the text, both Spanish and English, I then created separate TEI files for the different chunks of text, corresponding with the facsimile images of the first edition. This step comprised creating 40 different TEI files for each of the 40 facsimile images. Several additional steps were required at this stage:</p>
                         <ul>
-				<li>The inclusion of the mandatory TEI &lt;teiHeader&gt; element, including the obligatory &lt;fileDesc&gt; element (to describe the bibliographic source of the TEI file) and the optional &lt;encodingDesc&gt; element (to provide extra information on how the source had been marked-up</li>
+				<li>The inclusion of the mandatory TEI &lt;teiHeader&gt; element, including the obligatory &lt;fileDesc&gt; element (to describe the bibliographic source of the TEI file) and the optional &lt;encodingDesc&gt; element (to provide extra information on how the source had been marked-up)</li>
 				<li>The inclusion of the optional &lt;facsimile&gt; and &lt;graphic> elements between the &lt;teiHeader&gt; and &lt;text&gt; elements to represent the facsimile image source of the text</li>
 				<li>The inclusion of Spanish and English text alongside each other, separated into different &lt;div&gt; elements and identified by the @xml:lang=“es” or @xml:lang=“en” attribute</li>
 			</ul>
@@ -124,9 +124,18 @@
 			    
 			<h1 style="font-family:RCFont" class="text-center">Seville Map</h1>
 			<h5 style="font-family:RCFont">KML File</h5>
-                        <p>XXXXX</p>
-                        <p>XXXXX</p>
-                        <p>XXXXX</p><br>
+                        <p>The first step towards creating the map of Rinconete and Cortadillo’s Seville was to create a KML file. KML stands for Keyhole Mark-Up Language and is an XML notation for expressing geographic annotation and visualisation within 2D maps and 3D earth browsers, originally developed for use with Google Earth.</p>
+                        <p>An attempt was made to automate the creation of the necessary KML file via Recogito – a free, web-based tool for the semantic annotation of texts – by uploading the text of the short story and running an automatic Named Entity Recognition scan. However, the software failed to recognise even one of the necessary locations, and failed to accept them as valid locations when inputted manually.</p>
+			<p>The KML file was therefore created from scratch and contains the following information on the 13 geographical locations explicitly mentioned in the text, each contained within its own &lt;Placemark&gt; element:</p>
+                       	<ul>
+				<li>The place name, contained within the &lt;name&gt; element</li>
+				<li>A short description of how this place is mentioned within the text and its role within Seville today, contained within the &lt;description&gt; element</li>
+				<li>An image of the location using the &lt;img&gt; tag, also contained within the &lt;description&gt; element </li>
+				<li>The geographical longitude and latitude co-ordinates of the location, contained within the &lt;Point&gt; and then the &lt;coordinates&gt; elements</li>
+			</ul>
+			<p>This KML file can be viewed below.</p>
+			<script src="https://gist.github.com/RebeccaJillianBeattie/18c0155ef2cb75d5319f31ef1e8066c4.js"></script><br>
+			
 			<h5 style="font-family:RCFont">Google Maps</h5>
                         <p>XXXXX</p>
                         <p>XXXXX</p>
