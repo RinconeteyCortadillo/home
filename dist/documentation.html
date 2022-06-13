@@ -156,8 +156,8 @@
                         <p>AntConc is a freely-available corpus search and concordancing programme. It permits all basic corpus data extraction functionalities, including retrieving concordances, word lists, and collocations. Its downside is that it uses a linear search algorithm, instead of a binary search, making it slow for larger corpora. For the purposes of this project, with a very small corpus, it was sufficient.</p>
                         <p>Various aspects of this software were used for various different purposes:</p>
                         <ul>
-				<li>Its concordance plot functionality was used to confirm the precedence of direct references to Monipodio, compared to references to Rinconete and Cortadillo. This result was obtained by searching with the regular expressions: /Monipodio/, /Rinconete|Rincón/, and /(Cortadillo/Cortado/</li>
-				<li>Its concordance/key word in context functionality was used to confirm that the word “dijo” occurs most frequently alongside “Monipodio”, compared to “Rinconete” and “Cortadillo”. This result was obtained by searching with the regular expressions: /dijo\sMonipodio/, /dijo\s(Rinconete|Rincón)/, and /dijo\s(Cortadillo/Cortado)/</li>
+				<li>Its concordance plot functionality was used to confirm the precedence of direct references to Monipodio, compared to references to Rinconete and Cortadillo. This result was obtained by searching with the regular expressions: /Monipodio/, /Rinconete|Rincón/, and /Cortadillo|Cortado/</li>
+				<li>Its concordance/key word in context functionality was used to confirm that the word “dijo” occurs most frequently alongside “Monipodio”, compared to “Rinconete” and “Cortadillo”. This result was obtained by searching with the regular expressions: /dijo\sMonipodio/, /dijo\s(Rinconete|Rincón)/, and /dijo\s(Cortadillo|Cortado)/</li>
 				<li>And it was also used to enumerate the number of instances in which the lemma of “dijo” occurred, alongside several other variations. This result was obtained by searching with the regular expression: /[Dd]i(jo|cho|jeron|jeran|ciendo)|[Dd]ec(ir|ía)/</li>
 			</ul><br>
   
