@@ -149,15 +149,18 @@
 			    
 			<h1 style="font-family:RCFont" class="text-center">Distant Reading</h1>
 			<h5 style="font-family:RCFont">Voyant</h5>
-                        <p>XXXXX</p>
-                        <p>XXXXX</p>
-                        <p>XXXXX</p><br>
+                        <p>Voyant Tools (<a href=“https://www.voyant-tools.org>link</a>) is a web-based reading and analysis environment for digital texts, designed to facilitate reading and interpretation.</p>
+                        <p>My primary use of this tool in the Rinconete y Cortadillo Digital Edition project was to visualise the most frequent words in the text. In order to get a reliable and useful result I had to expand the site’s automatic Stopwords list to incorporate some frequent tokens, such as “eso”, “esto”, “ese”, “este”, “a”, “que”, “les”, “le”, “mi”, “mí”, “son”, “sea”, “hemos”, “había”, “habían”, “él”, “ella”, “te”, “os”, “vos”, and “no”. These words are common but negligible, representing possessive pronouns, demonstrative adjectives, indirect objects, subject pronouns, prepositions, and verbal auxiliaries.</p><br>
 			    
 			<h5 style="font-family:RCFont">AntConc</h5>
-                        <p>XXXXX</p>
-                        <p>XXXXX</p>
-                        <p>XXXXX</p><br>
-			    
+                        <p>AntConc is a freely-available corpus search and concordancing programme. It permits all basic corpus data extraction functionalities, including retrieving concordances, word lists, and collocations. Its downside is that it uses a linear search algorithm, instead of a binary search, making it slow for larger corpora. For the purposes of this project, with a very small corpus, it was sufficient.</p>
+                        <p>Various aspects of this software were used for various different purposes:</p>
+                        <ul>
+				<li>Its concordance plot functionality was used to confirm the precedence of direct references to Monipodio, compared to references to Rinconete and Cortadillo. This result was obtained by searching with the regular expressions: /Monipodio/, /Rinconete|Rincón/, and /(Cortadillo/Cortado/</li>
+				<li>Its concordance/key word in context functionality was used to confirm that the word “dijo” occurs most frequently alongside “Monipodio”, compared to “Rinconete” and “Cortadillo”. This result was obtained by searching with the regular expressions: /dijo\sMonipodio/, /dijo\s(Rinconete|Rincón)/, and /dijo\s(Cortadillo/Cortado)/</li>
+				<li>And it was also used to enumerate the number of instances in which the lemma of “dijo” occurred, alongside several other variations. This result was obtained by searching with the regular expression: /[Dd]i(jo|cho|jeron|jeran|ciendo)|[Dd]ec(ir|ía)/</li>
+			</ul><br>
+  
 			<h5 style="font-family:RCFont">Enhanced TEI Mark-Up</h5>
                         <p>In order to enable the process of distant reading to take place, it was first necessary to build upon the basic TEI mark-up which had already been carried out. In addition to the &lt;head&gt;, &lt;p&gt;, &lt;q&gt;, &lt;quote&gt; elements which had already been included, several other annotations were made to the TEI mark-up.</p>
                         <p>In terms of the TEI Header, the following alterations were made:</p>
