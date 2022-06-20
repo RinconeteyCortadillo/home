@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<author>Miguel de Cervantes</author>
+				<editor>Harry Sieber</editor>
+				<editor>Rebecca Beattie</editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source. The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/82.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p><q>delfin y salió del mar como si viniera caballero sobre una mula de alquiler; ni el otro gran músico que hizo una ciudad que tenía cien puertas y otros tantos postigos, nunca inventaron mejor género de música, tan fácil de deprender, tan mañera de tocar, tan sin trastes, clavijas ni cuerdas, y tan sin necesidad de templarse; y aun voto a tal que dicen que la inventó un galán desta ciudad, que se pica de ser un Héctor en la música.</q></p>
+
+				<p><q>--Eso creo yo muy bien - respondió Rinconete -; pero escuchemos lo que quieren cantar nuestros músicos, que parece que la Gananciosa ha escupido, señal de que quiere cantar.</q></p>
+
+				<p>Y así era la verdad, porque Monipodio le habia rogado que cantase algunas seguidillas de las que se usaban; mas la que comenzó primero fue la Escalanta, y con voz sutil y quebradiza, cantó lo siguiente:</p>
+
+				<p><q><quote>Por un sevillano, rufo a lo valon
+				tengo socarrado todo el corazón.</quote></q></p>
+
+				<p>Siguió la Gananciosa cantando:</p>
+
+				<p><q><quote>Por un morenico de color verde,
+				¿cuál es la fogosa que no se pierde?</quote></q></p>
+
+				<p>Y luego Monipodio, dándose gran priesa al meneo de sus tejoletas, dijo:</p>
+
+				<p><q><quote>Riñen dos amantes; hácese la paz:
+				Si el enojo es grande, es el gusto más.</quote></q></p>
+
+				<p>No quiso la Cariharta pasar su gusto en silencio, porque tomando otro chapín, se metió en danza, y acompañó a las demás diciendo:</p>
+			</div>
+			
+			<div xml:lang="en">
+				<p><q>dolphin, and came out of the sea like a man riding on a hired mule--nor even that other great musician who built a city with a hundred gates and as many posterns--never a one of them invented an instrument half so easy of acquirement, so ready to the touch, so pleasing and simple as to its frets, keys, and chords, and so far from troublesome in the tuning and keeping in accord; and by all the saints, they swear that it was invented by a gallant of this very city, a perfect Hector in matters of music."</q></p>
+
+				<p><q>"I fully believe all you say," replied Rinconete, "but let us listen, for our musicians are about to sing. Gananciosa is blowing her nose, which is a certain sign that she means to sing."</q></p>
+
+				<p>And she was, in fact, preparing to do so. Monipodio had requested her to give the company some of the Seguidillas most in vogue at the moment. But the first to begin was Escalanta, who sang as follows, in a thin squeaking voice:--</p>
+
+				<p><q><quote>"For a boy of Sevilla,
+				Red as a Dutchman,
+				All my heart's in flame."</quote></q></p>
+
+				<p>To which Gananciosa replied, taking up the measure as she best might--</p>
+
+				<p><q><quote>"For the little brown lad,
+				With a good bright eye,
+				Who would not lose her name?"</quote></q></p>
+
+				<p>Then Monipodio, making great haste to perform a symphony with his pieces of platter, struck in--</p>
+
+				<p><q><quote>But soon, to make their peace, take leisure;
+				And all the greater was the row,
+				So much the greater is the pleasure."</quote></q></p>
+
+				<p>But Cariharta had no mind to enjoy her recovered happiness in silence and fingering another clog, she also entered the dance, joining her voice to those of her friends, in the following words--</p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

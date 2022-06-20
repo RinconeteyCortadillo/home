@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<author>Miguel de Cervantes</author>
+				<editor>Harry Sieber</editor>
+				<editor>Rebecca Beattie</editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source. The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/71.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p><q>señor sacristan, por su vida.</q></p>
+
+				<p><q>--¡Renta la puta que me parió! Y ¡estoy yo agora para decir lo que renta! - respondió el sacristán con algún tanto de demasiada cólera -. Decidme, hermano, si sabéis algo; si no, quedad con Dios, que yo la quiero hacer pregonar.</q></p>
+
+				<p><q>--No me parece mal remedio ése - dijo Cortado -; pero advierta vuesa merced que no se le olviden las señas de la bolsa, ni la cantidad puntualmente del dinero que va en ella; que si yerra en un ardite, no parecerá en dias del mundo, y esto le doy por hado.</q></p>
+
+				<p><q>--No hay que temer deso - respondió el sacristan - que lo tengo más en la memoria que el tocar de las campanas: no me erraré en un átomo.</q></p>
+
+				<p>Sacó, en esto, de la faldriquera un pañuelo randado para limpiarse el sudor, que llovía de su rostro como de alquitara; y apenas le hubo visto Cortado, cuando le marcó por suyo. Y habiéndose ido el sacristán, Cortado le siguió y le alcanzó en las Gradas, donde le llamó y le retiró a una parte, y allí le comenzó a decir tantos disparates al modo de lo que llaman bernardinas, cerca del hurto y hallazgo de su bolsa, dándole buenas esperanzas, sin concluir jamás razán que comenzase, que el pobre sacristán estaba embelesado escuchándole. Y como no acababa de entender lo que le decía, hacía que le repitiese la razón dos y tres veces.</p>
+
+				<p>Estábale mirando Cortado a la cara atentamente, y no quitaba los ojos de sus ojos. El sacristán le miraba de la misma manera, estando colgado de sus palabras. Este tan grande embelesamiento dió lugar a Cortado que concluyese su obra, y sutilmente le sacó el pañuelo de la faldriquera, y despidiéndose dél, le dijo que a la tarde procurase de verle en aquel mismo lugar, porque él traía entre ojos que un muchacho de su mismo oficio y de su mismo oficio, que era algo ladroncillo, le había tomado la bolsa, y que él se obligaba a saberlo, dentro de pocos o de muchos días.</p>
+
+				<p>Con esto se consoló algo el sacristán,</p>
+			</div>
+			
+			<div xml:lang="en">
+				<p><q>Mr. Sacristan, on your life, what is the amount of the whole yearly income?"</q></p>
+
+				<p><q>"Income to the devil, and you with it," replied the Sacristan, with more rage than was becoming; "am I in a humour to talk to you about income? Tell me, brother, if you know anything of the purse; if not, God be with you--I must go and have it cried."</q></p>
+
+
+				<p><q>"That does not seem to me so bad a remedy," remarked Cortado; "but I warn your worship not to forget the precise description of the purse, nor the exact sum that it contains; for if you commit the error of a single mite, the money will never be suffered to appear again while the world is a world, and that you may take for a prophecy."</q></p>
+
+				<p><q>"I am not afraid of committing any mistake in describing the purse," returned the Sacristan, "for I remember it better than I do the ringing of my bells, and I shall not commit the error of an atom."</q> Saying this, he drew a laced handkerchief from his pocket to wipe away the perspiration which rained down his face as from an alembic; but no sooner had Cortado set eyes on the handkerchief, than he marked it for his own.</p>
+
+				<p>When the Sacristan had got to a certain distance, therefore, Cortado followed, and having overtaken him as he was mounting the steps of a church, he took him apart, and poured forth so interminable a string of rigmarole, all about the theft of the purse, and the prospect of recovering it, that the poor Sacristan could do nothing but listen with open mouth, unable to make head or tail of what he said, although he made him repeat it two or three times.</p>
+
+				<p>Cortado meanwhile continued to look fixedly into the eyes of the Sacristan, whose own were rivetted on the face of the boy, and seemed to hang, as it were, on his words. This gave Cortado an opportunity to finish his job, and having cleverly whipped the handkerchief out of the pocket, he took leave of the Sacristan, appointing to meet him in the evening at the same place, for he suspected that a certain lad of his own height and the same occupation, who was a bit of a thief, had stolen the purse, and he should be able to ascertain the fact in a few days, more or less.</p>
+
+				<p>Somewhat consoled by this promise, the Sacristan</p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

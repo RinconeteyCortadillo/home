@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<author>Miguel de Cervantes</author>
+				<editor>Harry Sieber</editor>
+				<editor>Rebecca Beattie</editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source. The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/68a.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p>media hora le ganaron doce reales y veinte y dos maravedís, que fue darle doce lanzadas y veinte y dos mil pesadumbres. Y creyendo el arriero que por ser muchachos no se lo defenderían, quiso quitalles el dinero; mas ellos, poniendo el uno mano a su media espada y el otro al de las cachas amarillas, le dieron tanto que hacer, que a no salir sus compañeros, sin duda lo pasara mal.</p>
+
+				<p>A esta sazon pasaron acaso por el camino una tropa de caminantes a caballo, que iban a sestear a la venta del Alcalde, que está media legua mas adelante, los cuales, viendo la pendencia del arriero con los dos muchachos, los apaciguaron, y les dijeron que si acaso iban a Sevilla, que se viniesen con ellos.</p>
+
+				<p><q>--Allá vamos - dijo Rincón -, y serviremos á vuesas mercedes en todo cuanto nos mandaren.</q></p>
+
+				<p>Y sin mas detenerse saltaron delante de las mulas y se fueron con ellos, dejando al arriero agraviado y enojado, y a la venteraadmirada de la buena crianza de los pícaros, que les habia estado oyendo su plática sin que ellos advirtiesen en ello. Y cuando dijo al arriero que les habia oído decir que los naipes que traían eran falsos, se pelaba las barbas, y quisiera ir a la venta tras ellos a cobrar su hacienda, porque decía que era grandísima afrenta y caso de menos valer que dos muchachos hubiesen engañado a un hombrazo tan grande como él. Sus compañeros le detuvieron y aconsejaron que no fuese, siquiera por no publicar su inhabilidad y simpleza. En fin, tales razones le dijeron, que aunque no le consolaron, le obligaron a quedarse.</p>
+
+				<p>En esto, Cortado y Rincón se dieron tan buena maña en servir a los caminantes, que lo más del camino los llevaban a las ancas; y aunque se les ofrecían algunas ocasiones de tentar las valijas de sus mediosamos, no las admitieron, por no perder la ocasión tan buena del viaje de Sevilla, donde</p>
+			</div>
+			
+			<div xml:lang="en">
+				<p>an hour they had won from him twelve reals and twenty-two maravedis, which he felt as sorely as twelve stabs with a dagger and twenty-two thousand sorrows. Presuming that the young chaps would not venture to defend themselves, he thought to get back his money by force; but the two friends laying hands promptly, the one on his dudgeon dagger and the other on his yellow handled knife, gave the Muleteer so much to do, that if his companions had not hastened to assist him, he would have come badly out of the quarrel.</p>
+
+				<p>At that moment there chanced to pass by a company of travellers on horseback, who were going to make their siesta at the hostelry of the Alcalde, about half a league farther on. Seeing the affray between the Muleteer with two boys, they interposed, and offered to take the latter in their company to Seville, if they were going to that city.</p>
+
+				<p><q>"That is exactly where we desire to go," exclaimed Rincon, "and we will serve your worships in all that it shall please you to command."</q> Whereupon, without more ado, they sprang before the mules, and departed with the travellers, leaving the Muleteer despoiled of his money and furious with rage, while the hostess was in great admiration of the finished education and accomplishments of the two rogues, whose dialogue she had heard from beginning to end, while they were not aware of her presence.</p>
+
+				<p>When the hostess told the Muleteer that she had heard the boys say the cards they played with were false, the man tore his beard for rage, and would have followed them to the other Venta, in the hope of recovering his property; for he declared it to be a serious affront, and a matter touching his honour, that two boys should have cheated a grown man like him. But his companions dissuaded him from doing what they declared would be nothing better than publishing his own folly and incapacity; and their arguments, although they did not console the Muleteer, were sufficient to make him remain where he was.</p>
+
+				<p>Meanwhile Cortado and Rincon displayed so much zeal and readiness in the service of the travellers, that the latter gave them a lift behind them for the greater part of the way. They might many a time have rifled the portmanteaus of their temporary masters, but did not, lest they should thereby lose the happy opportunity of seeing Seville, in which</p>
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

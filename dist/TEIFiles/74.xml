@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<author>Miguel de Cervantes</author>
+				<editor>Harry Sieber</editor>
+				<editor>Rebecca Beattie</editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source. The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/74.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p>trabándoles de las manos, los presentó ante Monipodio, diciéndole:</p>
+
+				<p><q>--Estos son los dos buenos mancebos que a vuesa merced dije, mi señor Monipodio: vuesa merced los desamine y verá como son dignos de entrar en nuestra congregacion.</q></p>
+
+				<p><q>--Eso haré yo de muy buena gana -respondió Monipodio.</q></p>
+
+				<p>Olvidábaseme de decir que así como Monipodio bajó, al punto todos los que aguardándole estaban le hicieron una profunda y larga reverencia, escepto los dos bravos, que a medio magate, como entre ellos se dice, se quitaron los capelos, y luego volvieron a su paseo por una parte del patio, y por la otra se paseaba Monipodio, el cual preguntó a los nuevos el ejercicio, la patria y padres.</p>
+
+				<p>A lo cual Rincón respondió:</p>
+
+				<p><q>--El ejercicio ya está dicho, pues venimos ante vuesa merced; la patria no me parece de mucha importancia decilla, ni los padres tampoco, pues no se ha de hacer informacion para recebir algún hábito honroso.</q></p>
+
+				<p>A lo cual respondió Monipodio:</p>
+
+				<p><q>--Vos, hijo mio, estais en lo cierto, y es cosa muy acertada encubrir eso que decís; porque si la suerte no corriere como debe, no es bien que quede asentado debajo de signo de escribano, ni en el libro de las entradas: «Fulano, hijo de Fulano, vecino de tal parte, tal dia le ahorcaron, o le azotaron», o otra cosa semejante, que, por lo menos, suena mal a los buenos oídos: y así, torno a decir que es provechoso documento callar la patria, encubrir los padres y mudar los propios nombres; aunque para entre nosotros no ha de haber nada encubierto, y sólo ahora quiero saber los nombres de los dos.</q></p>
+
+				<p>Rincón dijo el suyo, y Cortado tambien.</p>
+
+				<p><q>--Pues de aquí adelante - respondió Monipodio - quiero y es mi voluntad que vos, Rincón, os llaméis Rinconete, y vos, Cortado, Cortadillo, que son nombres que asientan como de molde a vuestra edad y a nuestras ordenanzas, debajo de las cuales cae tener necesidad</q></p>
+			</div>
+			
+			<div xml:lang="en">
+				<p>taking Rincon and Cortado each by a hand, presented them to Monipodio, saying, <q>"These are the two good boys of whom I spoke to your worship, Señor Monipodio. May it please your worship to examine them, and you will see how well they are prepared to enter our brotherhood."</q> <q>"That I will do willingly," replied Monipodio.</q></p>
+
+				<p>But I had forgotten to say, that when Monipodio had first appeared, all those who were waiting for him, made a deep and long reverence, the two dashing cavaliers alone excepted, who did but just touch their hats, and then continued their walk up and down the court.</p>
+
+				<p>Monipodio also began to pace up and down the patio, and, as he did so, he questioned the new disciples as to their trade, their birthplace, and their parents. To this Rincon replied, <q>"Our trade is sufficiently obvious, since we are here before your worship; as to our country, it does not appear to me essential to the matter in hand that we should declare it, any more than the names of our parents, since we are not now stating our qualifications for admission into some noble order of knighthood."</q></p>
+
+				<p><q>"What you say, my son, is true, as well as discreet," replied Monipodio; "and it is, without doubt, highly prudent to conceal those circumstances; for if things should turn out badly, there is no need to have placed upon the books of register, and under the sign manual of the justice-clerk, 'So and so, native of such a place, was hanged, or made to dance at the whipping-post, on such a day,' with other announcements of the like kind, which, to say the least of them, do not sound agreeable in respectable ears. Thus, I repeat, that to conceal the name and abode of your parents, and even to change your own proper appellation, are prudent measures. Between ourselves there must, nevertheless, be no concealment: for the present I will ask your names only, but these you must give me."</q></p>
+
+				<p>Rincon then told his name, and so did Cortado: whereupon Monipodio said, <q>"Henceforward I request and desire that you, Rincon, call yourself Rinconete, and you, Cortado, Cortadillo; these being names which accord, as though made in a mould, with your age and circumstances, as well as with our ordinances, which make it needful</q></p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

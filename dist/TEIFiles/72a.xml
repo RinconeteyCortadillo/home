@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<author>Miguel de Cervantes</author>
+				<editor>Harry Sieber</editor>
+				<editor>Rebecca Beattie</editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source. The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/72a.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p><q>tormento; roznos, los asnos, hablando con perdón; primer desconcierto es las primeras vueltas de cordel que da el verdugo. Tenemos más: que rezamos nuestro rosario, repartido en toda la semana, y muchos de nosotros no hurtamos el día del viernes, ni tenemos conversación con mujer que se llame María, el dia del sábado.</q></p>
+
+				<p><q>--De perlas me parece todo eso - dijo Cortado-; pero dígame vuesa merced: ¿hácese otra restitución o otra penitencia más de la dicha?</q></p>
+
+				<p><q>--En esto de restituir no hay que hablar - respondió el mozo -, porque es cosa imposible, por las muchas partes en que se divide lo hurtado, llevando cada uno de los ministros y contrayentes la suya; y así, el primer hurtador no puede restituir nada; cuanto más que no hay quien nos mande hacer esta diligencia, a causa que nunca nos confesamos, y si sacan cartas de excomunión, jamás llegan a nuestra noticia, porque jamás vamos a la iglesia al tiempo que se leen, si no es los días de jubileo, por la ganancia que nos ofrece el concurso de la mucha gente.</q></p>
+
+				<p><q>--¿Y con sólo eso que hacen, dicen esos señores - dijo Cortadillo - que su vida es santa y buena?</q></p>
+
+				<p><q>--Pues ¿qué tiene de malo? - replicó el mozo -. ¿No es peor ser hereje o renegado, o matar a su padre y madre, a ser solomico?</q></p>
+
+				<p><q>--Sodomita querrá decir vuesa merced - respondió Rincón.</q></p>
+
+				<p><q>--Eso digo - dijo el mozo.</q></p>
+
+				<p><q>--Todo es malo - replicó Cortado -. Pero pues nuestra suerte ha querido que entremos en esta cofradía, vuesa merced alargue el paso; que muero por verme con el señor Monipodio, de quien tantas virtudes se cuentan.</q></p>
+
+				<p><q>--Presto se les cumplirá su deseo - dijo el mozo -, que ya desde aquí se descubre su casa. Vuesas mercedes se queden a la puerta, que yo entraré a ver si está desocupado, porque éstas son las horas cuando él suele dar audiencia.</q></p>
+
+				<p><q>--En buena sea - dijo Rincón.</q></p>
+
+				<p>Y adelantándose un poco el mozo, entró en una casa no muy buena, sino de muy mala apariencia,</p>
+			</div>
+			
+			<div xml:lang="en">
+				<p><q>torture. Roznos--saving your presence--are asses, and the first desconcierto is the first turn of the cord which is given by the executioner when we are on the rack. But we do more than burn oil to the Virgin. There is not one of us who does not recite his rosary carefully, dividing it into portions for each day of the week. Many will not steal at all on a Friday, and on Saturdays we never speak to any woman who is called Mary."</q></p>
+
+				<p><q>"All these things fill me with admiration," replied Cortado; "but may I trouble your worship to tell me, have you no other penance than this to perform? Is there no restitution to make?"</q></p>
+
+				<p><q>"As to restitution," returned the other, "it is a thing not to be mentioned; besides, it would be wholly impossible, on account of the numerous portions into which things stolen have to be divided before each one of the agents and contractors has received the part due to him. When all these have had their share, the original thief would find it difficult to make restitution. Moreover, there is no one to bid us do anything of that kind, seeing that we do not go to confession. And if letters of excommunication are out against us, they rarely come to our knowledge, because we take care not to go into the churches while the priests are reading them, unless, indeed, it be on the days of Jubilee, for then we do go, on account of the vast profits we make from the crowds of people assembled on that occasion."</q></p>
+
+				<p><q>"And proceeding in this manner," observed Cortado, "your worships think that your lives are good and holy?"</q></p>
+
+				<p><q>"Certainly! for what is there bad in them?" replied the other lad! "Is it not worse to be a heretic or a renegade? or to kill your father or mother?"</q></p>
+
+				<p><q>"Without doubt," admitted Cortado; "but now, since our fate has decided that we are to enter this brotherhood, will your worship be pleased to step out a little, for I am dying to behold this Señor Monipodio, of whose virtues you relate such fine things."</q></p>
+
+				<p><q>"That wish shall soon be gratified," replied the stranger, "nay even from this place we can perceive his house: but your worships must remain at the door until I have gone in to see if he be disengaged, since these are the hours at which he gives audience."</q></p>
+
+				<p><q>"So be it," replied Rincon;</q> and the thief preceding them for a short distance, they saw him enter a house which, so far from being handsome, had a very mean and wretched appearance.</p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<author>Miguel de Cervantes</author>
+				<editor>Harry Sieber</editor>
+				<editor>Rebecca Beattie</editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source. The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/86a.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p>dijo que era Repolido como un Marinero de Tarpeya y un tigre de Ocaña, por decir Hircania, con otras mil impertinencias (especialmente le cayó en gracia cuando dijo que el trabajo que había pasado en ganado los veinte y cuatro reales lo recebiese el cielo en descuento de sus pecados) a estas y a otras peores semejantes; y, sobre todo, le admiraba la seguridad que tenían y la confianza de irse al cielo con no faltar a sus devociones, estando tan llenos de hurtos, y de homicidios y ofensas de Dios. Y reíase de la otra buena vieja de la Pipota, que dejaba la canasta de colar hurtada, guardada en su casa y se iba a poner las candelillas de cera a las imágenes y con ello pensaba irse al cielo calzada y vestida. No menos le suspendía la obediencia y respecto que todos tenian a Monipodio, siendo un hombre bárbaro, rústico y desalmado. Consideraba lo que había leido en su libro de memoria y los ejercicios en que todos se ocupaban. Finalmente, exageraba cuán descuidada justicia había en aquella tan famosa ciudad de Sevilla, pues casi al descubierto vivía en ella gente tan perniciosa y tan contraria a la misma naturaleza, y propuso en sí de aconsejar a su compañero no durasen mucho en aquella vida tan perdida y tan mala, tan inquieta, y tan libre y disoluta. Pero con todo esto, llevado de sus pocos años y de su poca experiencia, pasó con ella adelante algunos meses, en los cuales le sucedieron cosas que piden más larga escritura, y así se deja para otra ocasión contar su vida y milagros, con los de su maestro Monipodio, y otros sucesos de aquellos de la infame academia, que todos serán de grande consideración, y que podrán servir de ejemplo y aviso a los que las leyeren.</p>
+			</div>
+			
+			<div xml:lang="en">
+				<p>calling Repolido a Tarpeian Mariner, and a Tiger of Ocaña. He was also mightily edified by the expectation of Cariharta that the pains she had taken to earn the twenty-four reals would be accepted in heaven as a set-off against her sins, and was amazed to see with what security they all counted on going to heaven by means of the devotions they performed, notwithstanding the many thefts, homicides, and other offences against God and their neighbour which they were daily committing. The boy laughed too with all his heart, as he thought of the good old woman Pipota, who suffered the basket of stolen linen to be concealed in her house, and then went to place her little wax candles before the images of the saints, expecting thereby to enter heaven full dressed in her mantle and clogs.</p>
+
+				<p>But he was most surprised at the respect and deference which all these people paid to Monipodio, whom he saw to be nothing better than a coarse and brutal barbarian. He recalled the various entries which he had read in the singular memorandum-book of the burly thief, and thought over all the various occupations in which that goodly company was hourly engaged. Pondering all these things, he could not but marvel at the carelessness with which justice was administered in that renowned city of Seville, since such pernicious hordes and inhuman ruffians were permitted to live there almost openly.</p>
+
+				<p>He determined to dissuade his companion from continuing long in such a reprobate course of life. Nevertheless, led away by his extreme youth, and want of experience, he remained with these people for some months, during which there happened to him adventures which would require much writing to detail them; wherefore I propose to remit the description of his life and adventures to some other occasion, when I will also relate those of his master, Monipodio, with other circumstances connected with the members of that infamous academy, which may serve as warnings to those who read them.</p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

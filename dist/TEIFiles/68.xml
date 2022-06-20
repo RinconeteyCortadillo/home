@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<author>Miguel de Cervantes</author>
+				<editor>Harry Sieber</editor>
+				<editor>Rebecca Beattie</editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source. The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/68.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p><q>Yo nací en el piadoso lugar puesto entre Salamanca y Medina del Campo, mi padre es sastre; enseñóme su oficio, y de corte de tisera con mi buen ingenio, salté a cortar bolsas. Enfadóme la vida estrecha del aldea y el desamorado trato de mi madrastra. Dejé mi pueblo, vine a Toledo a ejercitar mi oficio, y en él he hecho maravillas; por que no pende relicario de toca, ni hay faldriquera tan escondida, que mis dedos no visiten ni mis tiseras no corten, aunque le estén guardando con [los] ojos de Argos. Y en cuatro meses que estuve en aquella ciudad, nunca fuí cogido entre puertas, ni sobresaltado ni corrido de corchetes, ni soplado de ningun cañuto. Bien es verdad que habrá ocho días que una espía doble dió noticia de mi habilidad al Corregidor, el cual, aficionado a mis buenas partes, quisiera verme; mas yo, que, por ser humilde, no quiero tratar con personas tan graves, procuré de no verme con él, y así, salí de la ciudad con tanta priesa, que no tuve lugar de acomodarme de cabalgaduras ni blancas, ni de algun coche de retorno, o por lo menos de un carro.</q></p>
+
+				<p><q>--Eso se borre - dijo Rincón -; y pues ya nos conocemos, no hay para qué aquesas grandezas ni altiveces: confesemos llanamente que no teníamos blanca, ni aun zapatos.</q></p>
+
+				<p><q>--Sea así - respondió Diego Cortado (que así dijo el menor que se llamaba -; y pues nuestra amistad, como vuesa merced, señor Rincon, ha dicho, ha de ser perpetua, comencémosla con santas y loables ceremonias.</q></p>
+
+				<p>Y levantándose Diego Cortado abrazó á Rincón, y Rincón a él, tierna y estrechamente, y luego se pusieron los dos a jugar a la veintiuna con los ya referidos naipes, limpios de polvo y de paja, mas no de grasa y malicia, y a pocas manos, alzaba tan bien por el as Cortado, como Rincón, su maestro.</p>
+
+				<p>Salió en esto un arriero a refrescarse al portal, y pidió que quería hacer tercio. Acogiéronle de buena gana, y en menos de media</p>
+			</div>
+			
+			<div xml:lang="en">
+				<p><q>"I was born at Pedroso, a village situate between Salamanca and Medina del Campo. My father is a tailor, as I have said, and taught me his trade; but from cutting with the scissors I proceeded--my natural abilities coming in aid--to the cutting of purses. The dull, mean life of the village, and the unloving conduct of my mother-in-law, were besides but little to my taste. I quitted my birthplace, therefore, repaired to Toledo to exercise my art, and succeeded in it to admiration; for there is not a reliquary suspended to the dress, not a pocket, however carefully concealed, but my fingers shall probe its contents, or my scissors snip it off, though the owner were guarded by the eyes of Argus.</q></p>
+
+				<p><q>"During four months I spent in Toledo, I was never trapped between two doors, nor caught in the fact, nor pursued by the runners of justice, nor blown upon by an informer. It is true that, eight days ago, a double spy[11] did set forth my distinguished abilities to the Corregidor, and the latter, taking a fancy to me from his description, desired to make my acquaintance; but I am a modest youth, and do not wish to frequent the society of personages so important. Wherefore I took pains to excuse myself from visiting him, and departed in so much haste, that I, like yourself, had no time to procure sumpter-mules or small change,--nay, I could not even find a return-chaise, nor so much as a cart."</q></p>
+
+				<p><q>"Console yourself for these omissions," replied Pedro del Rincon; "and since we now know each other, let us drop these grand and stately airs, and confess frankly that we have not a blessed farthing between us, nor even shoes to our feet."</q></p>
+
+				<p><q>"Be it so," returned Diego Cortado, for so the younger boy called himself. "Be it so; and since our friendship, as your worship Señor Rincon is pleased to say, is to last our whole lives, let us begin it with solemn and laudable ceremonies,"</q>--saying which, Diego rose to his feet, and embraced the Señor Rincon, who returned the compliment with equal tenderness and emotion.</p>
+
+				<p>They then began to play at Vingt-et-un with the cards above described, which were certainly "free from dust and straw," as we say, but by no means free from grease and knavery; and after a few deals, Cortado could turn up an ace as well as Rincon his master. When things had attained this point, it chanced that a Muleteer came out at the porch, and, as Rincon had anticipated, he soon proposed to make a third in their game.</p>
+
+				<p>To this they willingly agreed, and in less than half</p>
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+
