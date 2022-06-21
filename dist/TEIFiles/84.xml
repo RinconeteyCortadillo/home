@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<respStmt>
+					<resp>created by</resp>
+					<name>Rebecca Beattie</name>				
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source, quoted here.</p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+					<p>The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p>Information regarding use of content from the Biblioteca Nacional de Espana can be found at <ref target="http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/">http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>de Robles</surname>
+							<forename>Francisco</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Juan de la Cuesta</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>1613</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares I</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Kelly</surname>
+							<forename>Walter</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Rinconete and Cortadillo. Or, Peter of the Corner and the Little Cutter</title>
+					<publisher>The Literature Network</publisher>
+					<date>1881</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/84.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p>Quitóse en esto una cadena de vueltas menudas del cuello, y diósela a Monipodio, que al color y al peso bien vio que no era de alquimia. Monipodio la recibió con mucho contento y cortesía, porque era en estremo bien criado; la ejecución quedó a cargo de Chiquiznaque, que sólo tomó término de aquella noche. Fuése muy satisfecho el caballero, y luego Monipodio llamó á todos los ausentes y azorados. Bajaron todos, y poniéndose Monipodio en medio dellos, sacó un libro de memoria que traía en la capilla de la capa, y diósele a Rinconete que leyese, porque él no sabía leer. Abriólo Rinconete, y en la primera hoja vió que decía:</p>
+
+
+				<p><q><quote>MEMORIA DE LAS CUCHILLADAS QUE SE HAN DE DAR ESTA SEMANA</quote></q></p>
+
+				<p><q><quote>La primera al mercader de la encrucijada: vale cincuenta escudos. Están recebidos treinta a buena cuenta. Secutor, Chiquiznaque.</quote></q></p>
+
+				<p><q>--No creo que haya otra, hijo - dijo Monipodio -; pasá adelante, y mira donde dice: Memoria de palos.</q></p>
+
+				<p>Volvió la hoja Rinconete, y vió que en otra estaba escrito: Memoria de palos. Y mas abajo decía:</p>
+
+				<p><q><quote>Al bodegonero de la Alfalfa doce palos de mayor cuantía a escudo cada uno. Están dados a buena cuenta ocho. El término seis dias. Secutor, Maniferro.</quote></q></p>
+
+				<p><q>--Bien podía borrarse esa partida - dijo Maniferro -, porque esta noche traeré finiquito della.</q></p>
+
+				<p><q>--¿Hay mas, hijo? - dijo Monipodio.</q></p>
+
+				<p><q>--Sí, otra - respondió Rinconete - que dice así:</q></p>
+			</div>
+			
+			<div xml:lang="en">
+				<p>he took a chain from his neck, and put it into the hands of Monipodio, who found immediately by the weight and touch that it was not gold made by the chemist, but the true metal. He received it accordingly with great pleasure and much courtesy, for Monipodio was particularly well-bred. The execution of the work to be done for it was committed to Chiquiznaque, who declared that it should be delayed no longer than till the arrival of night. The gentleman then departed, well satisfied with his bargain.</p>
+
+				<p>Monipodio now summoned the confraternity from the hiding places into which their terror had driven them. When all had entered, he placed himself in the midst of them, drew forth a memorandum book from the hood of his cloak, and as he himself could not read, he handed it to Rinconete, who opened it, and read as follows:--</p>
+
+				<p><q><quote>"Memoranda of the cuts to be given this week.</quote></q></p>
+
+				<p><q><quote>"The first is to the merchant at the Cross-ways, and is worth fifty crowns, thirty of which have been received on account. Secutor, Chiquiznaque.</quote></q></p>
+
+				<p><q>"I believe there are no others, my son," said Monipodio; "go on and look for the place where it is written, 'Memoranda of blows with a cudgel.'"</q> Rinconete turned to that heading, and found under it this entry:--<q><quote>"To the keeper of the pot-house called the Trefoil, twelve blows, to be laid on in the best style, at a crown a-piece, eight of which crowns have been received; time of execution, within six days. Secutor, Maniferro."</quote></q></p>
+
+				<p><q>"That article may be scratched out of the account," remarked Maniferro, "for to-night I shall give the gentleman his due."</q></p>
+
+				<p><q>"Is there not another, my son?" asked Monipodio.</q></p>
+
+				<p><q>"There is," replied Rinconete, and he read as follows:--</q></p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

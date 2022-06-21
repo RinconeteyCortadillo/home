@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<respStmt>
+					<resp>created by</resp>
+					<name>Rebecca Beattie</name>				
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source, quoted here.</p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+					<p>The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p>Information regarding use of content from the Biblioteca Nacional de Espana can be found at <ref target="http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/">http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>de Robles</surname>
+							<forename>Francisco</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Juan de la Cuesta</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>1613</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares I</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Kelly</surname>
+							<forename>Walter</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Rinconete and Cortadillo. Or, Peter of the Corner and the Little Cutter</title>
+					<publisher>The Literature Network</publisher>
+					<date>1881</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/70.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p><q>enamorado y tengo de hacer hoy banquete a unas amigas de mi señora.</q></p>
+
+				<p><q>--Pues cargue vuesa merced a su gusto, que ánimo tengo y fuerzas para llevarme toda esta plaza, y aun si fuere menester que ayude a guisarlo, lo haré de muy buena voluntad.</q></p>
+
+				<p>Contentóse el soldado de la buena gracia del mozo, y díjole que si quería servir, que él le sacaría de aquel abatido oficio; a lo cual respondió Rincón que por ser aquel día el primero que le usaba, no le quería dejar tan presto hasta ver, a lo menos, lo que tenía de malo y bueno; y cuando no le contentase, él daba su palabra de servirle e él antes que a un canónigo.</p>
+
+				<p>Rióse el soldado, cargóle muy bien, mostróle la casa de su dama para que la supiese de allí adelante, y él no tuviese necesidad, cuando otra vez le enviase, de acompañarle. Rincon prometió fidelidad y buen trato. Dióle el soldado tres cuartos, y en un vuelo volvió a la plaza, por no perder coyuntura; porque también desta diligencia les advirtió el asturiano, y de que cuando llevasen pescado menudo, conviene a saber, albures, a sardinas, a acedías, bien podían tomar algunas y hacerles la salva, siquiera para el gasto de aquel dia; pero que esto había de ser con toda sagacidad y advertimiento, por que no se perdiese el crédito, que era lo que mas importaba en aquel ejercicio.</p>
+
+				<p>Por presto que volvió Rincón, ya halló en el mismo puesto a Cortado. Llegóse Cortado a Rincon, y preguntóle que cómo le había ido. Rincón abrió la mano y mostróle los tres cuartos. Cortado entró la suya en el seno, y sacó una bolsilla, que mostraba haber sido de ámbar en los pasados tiempos; venía algo hinchada, y dijo:</p>
+
+				<p><q>--Con esta me pagó su reverencia del estudiante, y con dos cuartos; mas tomadla vos, Rincón, por lo que puede suceder.</q></p>
+
+				<p>Y habiéndosela ya dado secretamente, veis aquí do vuelve el estudiante trasudado y turbado de muerte, y viendo a Cortado le dijo</p> 
+			</div>
+			
+			<div xml:lang="en">
+				<p><q>in love. I propose this day to regale the friends of my lady with a feast, and am come to buy the materials."</q> <q>"Load away, then, your worship," replied Rincon, "and lay on me as much as you please, for I feel courage enough to carry off the whole market; nay, if you should desire me to aid in cooking what I carry, it shall be done with all my heart."</q></p>
+
+				<p>The soldier was pleased with the boy's ready good-will, and told him that if he felt disposed to enter his service he would relieve him from the degrading office he then bore; but Rincon declared, that since this was the first day on which he had tried it, he was not willing to abandon the work so soon, or at least until he had seen what profit there was to be made of it; but if it did not suit him, he gave the gentleman his word that he would prefer the service offered him even to that of a Canon.</p>
+
+				<p>The soldier laughed, loaded him well, and showed him the house of his lady, bidding him observe it well that he might know it another time, so that he might be able to send him there again without being obliged to accompany him. Rincon promised fidelity and good conduct; the soldier gave him three quartos, and the lad returned like a shot to the market, that he might lose no opportunity by delay. Besides, he had been well advised in respect of diligence by the Asturian, who had likewise told him that when he was employed to carry small fish, such as sprats, sardines, or flounders, he might very well take a few for himself and have the first taste of them, were it only to diminish his expenses of the day, but that he must do this with infinite caution and prudence, lest the confidence of the employers should be disturbed; for to maintain confidence was above all things important in their trade.</p>
+
+				<p>But whatever haste Rincon had made to return, he found Cortado at his post before him. The latter instantly inquired how he had got on. Rincon opened his hand and showed the three quartos; when Cortado, thrusting his arm into his bosom, drew forth a little purse which appeared to have once been of amber-coloured silk, and was not badly filled. <q>"It was with this," said he, "that my service to his reverence the Student has been rewarded--with this and two quartos besides. Do you take it, Rincon, for fear of what may follow."</q></p>
+
+				<p>Cortado had scarcely given the purse in secret to his companion, before the Student returned in a great heat, and looking in mortal alarm. He no sooner set eyes on Cortado, than, hastening towards him,</p>
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

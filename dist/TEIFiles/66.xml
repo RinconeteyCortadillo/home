@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<respStmt>
+					<resp>created by</resp>
+					<name>Rebecca Beattie</name>				
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source, quoted here.</p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+					<p>The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p>Information regarding use of content from the Biblioteca Nacional de Espana can be found at <ref target="http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/">http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>de Robles</surname>
+							<forename>Francisco</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Juan de la Cuesta</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>1613</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares I</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Kelly</surname>
+							<forename>Walter</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Rinconete and Cortadillo. Or, Peter of the Corner and the Little Cutter</title>
+					<publisher>The Literature Network</publisher>
+					<date>1881</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="DigitalEditionHTMLs/FacsimileImages/66.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<head>NOVELA DE RINCONETE Y CORTADILLO.</head>
+				<p>En la venta del Molinillo, que está puesta en los fines de los famosos campos de Alcudia, como vamos de Castilla a la Andalucía, un dia de los calorosos del verano se hallaron en ella acaso dos muchachos de hasta edad de catorce a quince años; el uno ni el otro no pasaba de diez y siete; ambos de buena gracia, pero muy descosidos, rotos y maltratados. Capa no la tenían; los calzones eran de lienzo, y las medias, de carne. Bien es verdad que lo enmendaban los zapatos, porque los del uno eran alpargates, tan traídos como llevados, y los del otro picados y sin suelas, de manera que mas le servían de cormas que de zapatos. Traía el uno montera verde de cazador; el otro un sombrero sin toquilla, bajo de copa y ancho de falda. A la espalda, y ceñida</p>
+			</div>
+			<div xml:lang="en">
+				<head>NOVELLA OF RINCONETE AND CORTADILLO.</head>				
+				<p>At the Venta or hostelry of the Mulinillo, which is situated on the confines of the renowned plain of Alcudia, and on the road from Castile to Andalusia, two striplings met by chance on one of the hottest days of summer. One of them was about fourteen or fifteen years of age; the other could not have passed his seventeenth year. Both were well formed, and of comely features, but in very ragged and tattered plight. Cloaks they had none; their breeches were of linen, and their stockings were merely those bestowed on them by Nature. It is true they boasted shoes; one of them wore alpargates, or rather dragged them along at his heels; the other had what might as well have been shackles for all the good they did the wearer, being rent in the uppers, and without soles. Their respective head-dresses were a montera and a miserable sombrero, low in the crown and wide in the brim. On his shoulder, and crossing</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<respStmt>
+					<resp>created by</resp>
+					<name>Rebecca Beattie</name>				
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source, quoted here.</p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+					<p>The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p>Information regarding use of content from the Biblioteca Nacional de Espana can be found at <ref target="http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/">http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>de Robles</surname>
+							<forename>Francisco</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Juan de la Cuesta</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>1613</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares I</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Kelly</surname>
+							<forename>Walter</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Rinconete and Cortadillo. Or, Peter of the Corner and the Little Cutter</title>
+					<publisher>The Literature Network</publisher>
+					<date>1881</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/85a.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p><q>cuatro naipes menos. Este distrito os enseñará Ganchoso; y aunque os extendáis hasta San Sebastián y San Telmo, importa poco, puesto que es justicia mera mixta que nadie se entre en pertenencia de nadie.</q></p>
+
+				<p>Besáronle la mano los dos por la merced que se les hacía, y ofreciéronse a hacer su oficio bien y fielmente, con toda diligencia y recato.</p>
+
+				<p>Sacó en esto Monipodio un papel doblado de la capilla de la capa, donde estaba la lista de los cofrades, y dijo a Rinconete que pusiese allí su nombre y el de Cortadillo; mas porque no habia tintero, le dio el papel para que lo llevase, y en el primer boticario los escribiese, poniendo: «Rinconete y Cortadillo, cofrades: noviciado, ninguno, Rinconete, floreo; Cortadillo bajón», y el día, mes y año, callando padres y patria. Estando en esto entró uno de los viejos abispones y dijo:</p>
+
+				<p><q>--Vengo a decir a vuesas mercedes como agora, agora, topé en Gradas a Lobillo el de Málaga, y díceme que viene mejorado en su arte de tal manera, que con naipe limpio quitará el dinero al mismo Satanás; y que por venir maltratado no viene luego a registrarse y a dar la sólita obediencia; pero que el domingo será aquí sin falta.</q></p>
+
+				<p><q>--Siempre se me asentó a mí - dijo Monipodio - que este Lobillo había de ser único en su arte, porque tiene las mejores y mas acomodadas manos para ello que se pueden desear; que para ser uno buen oficial en su oficio, tanto ha menester los buenos instrumentos con que le ejercita como el ingenio con que le aprende.</q></p>
+
+				<p><q>--Tambien topé - dijo el viejo - en una casa de posadas, de la calle de Tintores, al Judío, en hábito de clérigo, que se ha ido a posar allí, por tener noticia que dos peruleros viven en la misma casa, y querría ver si pudiese trabar juego con ellos aunque fuese de poca cantidad, que de allí podría venir a mucha. Dice también que el domingo no faltará de la junta y dará cuenta de su persona.</q></p>
+			</div>
+			
+			<div xml:lang="en">
+				<p><q>four cards short. Ganchuelo will show them the limits of their district, and even though they should extend it as far as to San Sebastian, or Santelmo, there will be no great harm done, although it is perhaps of more equal justice that none should enter on the domain of another."</q></p>
+
+				<p>The two boys kissed his hand in acknowledgment of the favour he was doing them; and promised to perform their parts zealously and faithfully, and with all possible caution and prudence.</p>
+
+				<p>Monipodio then drew from the hood of his cloak a folded paper, on which was the list of the brotherhood, desiring Rinconete to inscribe his name thereon, with that of Cortadillo; but as there was no escritoire in the place, he gave them the paper to take with them, bidding them enter the first apothecary's shop they could find, and there write what was needful: "Rinconete, and Cortadillo," namely, "comrades; novitiate, none; Rinconete, a florist; Cortadillo, a bassoon-player." To this was to be added the year, month, and day, but not the parents or birthplace.</p>
+
+				<p>At this moment one of the old hornets came in and said, <q>"I come to tell your worships that I have just now met on the steps, Lobillo of Malaga, who tells me that he has made such progress in his art as to be capable of cheating Satan himself out of his money, if he have but clean cards. He is so ragged and out of condition at this moment, that he dares not instantly make his appearance to register himself, and pay his respects as usual, but will be here without fail on Sunday."</q></p>
+
+
+				<p><q>"I have always been convinced," said Monipodio, "that Lobillo would some day become supereminent in his art, for he has the best hands for the purpose that have ever been seen; and to be a good workman in his trade, a man should be possessed of good tools, as well as capacity for learning."</q></p>
+
+				<p><q>"I have also met the Jew," returned the hornet; "he wears the garb of a priest, and is at a tavern in the Street of the Dyers, because he has learned that two Peruleros are now stopping there. He wishes to try if he cannot do business with them, even though it should be but in a trifling way to begin; for from small endeavours often come great achievements. He, too, will be here on Sunday, and will then give an account of himself."</q></p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<respStmt>
+					<resp>created by</resp>
+					<name>Rebecca Beattie</name>				
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source, quoted here.</p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+					<p>The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p>Information regarding use of content from the Biblioteca Nacional de Espana can be found at <ref target="http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/">http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>de Robles</surname>
+							<forename>Francisco</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Juan de la Cuesta</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>1613</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares I</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Kelly</surname>
+							<forename>Walter</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Rinconete and Cortadillo. Or, Peter of the Corner and the Little Cutter</title>
+					<publisher>The Literature Network</publisher>
+					<date>1881</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/76a.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+		<div xml:lang="es">
+				<p>ordenanzas. Viendo Rinconete, pues, tanta disensión y alboroto, parecióle que sería bien sosegalle y dar contento a su mayor, que reventaba de rabia, y aconsejándose con su amigo Cortadillo, con parecer de entrambos sacó la bolsa del sacristán y dijo:</p>
+
+				<p><q>--Cese toda cuestion, mis señores; que ésta es la bolsa, sin faltarle nada de lo que el alguacil manifiesta: que hoy mi camarada Cortadillo le dio alcance con un pañuelo que al mismo dueño se le quitó, por añadidura.</q></p>
+
+				<p>Luego sacó Cortadillo el pañizuelo y lo puso de manifiesto; viendo lo cual Monipodio, dijo:</p>
+
+				<p><q>--Cortadillo el Bueno, que con este título y renombre ha de quedar de aquí adelante, se quede con el pañuelo, y á mi cuenta se queda la satisfac[c]ión deste servicio; y la bolsa se ha de llevar el alguacil, que es de un sacristán pariente suyo y conviene que se cumpla aquel refrán que dice: «No es mucho que a quien te da la gallina entera, tú des una pierna della». Más disimula este buen alguacil en un dia que nosotros le podemos ni solemos dar en ciento.</q></p>
+
+				<p>De comun consentimiento aprobaron todos la hidalguía de los dos modernos y la sentencia y parecer de su mayoral, el cual salió a dar la bolsa al alguacil, y Cortadillo se quedó confirmado con el renombre de Bueno, bien como si fuera don Alonso Pérez de Guzmán el Bueno, que arrojó el cuchillo por los muros de Tarifa para degollar a su único hijo.</p>
+
+				<p>Al volver que volvió Monipodio, entraron con él dos mozas, afeitados los rostros, llenos de color los labios y de albayalde los pechos, cubiertas con medios mantos de anascote, llenas de desenfado y desvergüenza: señales claras por donde, en viéndolas Rinconete y Cortadillo, conocieron que eran de la casa llana, y no se engañaron en nada; y así como entraron se fueron con los brazos abiertos, la una a Chiquiznaque y la otra a Maniferro, que éstos eran los nombres de los dos bravos; y el de Maniferro</p>
+			</div>
+			
+			<div xml:lang="en">
+				<p>ordinces infringed. Seeing, therefore, that the confusion and alarm had now got to such a height, Rinconete began to think it time to allay it, and to calm the anger of his superior, who was bursting with rage. He took counsel for a moment with Cortadillo, and receiving his assent, drew forth the purse of the Sacristan, saying:--</p>
+
+				<p><q>"Let all questions cease, gentlemen: here is the purse, from which nothing is missing that the Alguazil has described, since my comrade Cortadillo prigged it this very day, with a pocket-handkerchief into the bargain, which he borrowed from the same owner."</q> Thereupon Cortadillo produced the handkerchief before the assembled company.</p>
+
+				<p>Seeing this, Monipodio exclaimed <q>"Cortadillo the Good! for by that title and surname shall you henceforward be distinguished. Keep the handkerchief, and I take it upon myself to pay you duly for this service; as to the purse, the Alguazil must carry it away just as it is, for it belongs to a Sacristan who happens to be his relation, and we must make good in his case the proverb, which says, 'To him who gives thee the entire bird, thou canst well afford a drumstick of the same.' This good Alguazil can save us from more mischief in one day than we can do him good in a hundred."</q></p>
+
+				<p>All the brotherhood with one voice approved the spirit and gentlemanly proceeding of the two new comers, as well as the judgment and decision of their superior, who went out to restore the purse to the Alguazil. As to Cortadillo, he was confirmed in his title of the Good, much as if the matter had concerned a Don Alonzo Perez de Guzman, surnamed the Good, who from the walls of Tarifa threw down to his enemy the dagger that was to destroy the life of his only son.</p>
+
+
+				<p>When Monipodio returned to the assembly he was accompanied by two girls, with rouged faces, lips reddened with carmine, and necks plastered with white. They wore short camlet cloaks, and exhibited airs of the utmost freedom and boldness. At the first glance Rinconete and Cortadillo could see what was the profession of these women. They had no sooner entered, than they hurried with open arms, the one to Chiquiznaque, the other to Maniferro; these were the two bravos, one of whom</p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

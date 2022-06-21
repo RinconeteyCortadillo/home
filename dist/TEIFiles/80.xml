@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<respStmt>
+					<resp>created by</resp>
+					<name>Rebecca Beattie</name>				
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source, quoted here.</p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+					<p>The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p>Information regarding use of content from the Biblioteca Nacional de Espana can be found at <ref target="http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/">http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>de Robles</surname>
+							<forename>Francisco</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Juan de la Cuesta</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>1613</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares I</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Kelly</surname>
+							<forename>Walter</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Rinconete and Cortadillo. Or, Peter of the Corner and the Little Cutter</title>
+					<publisher>The Literature Network</publisher>
+					<date>1881</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/80.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p><q>todas horas; y en la de agora acabemos lo que teníamos comenzado del almuerzo, que después todo se andará.</q></p>
+
+				<p>Fue contenta la Juliana de obedecer a su mayor, y así todos volvieron a su gaudeamus, y en poco espacio vieron el fondo de la canasta y las heces del cuero. Los viejos bebieron sine fine; los mozos adunia; las señoras, los quiries. Los viejos pidieron licencia para irse. Diósela luego Monipodio, encargándoles viniesen a dar noticia con toda puntualidad de todo aquello que viesen ser útil y conveniente a la comunidad. Respondieron que ellos se lo tenían bien en cuidado, y fuéronse.</p>
+
+				<p>Rinconete, que de suyo era curioso, pidiendo primero perdón y licencia, preguntó a Monipodio que de qué servían en la cofradía dos personajes tan canos, tan graves y apersonados. A lo cual respondió Monipodio que aquéllos, en su germanía y manera de hablar, se llamaban abispones, y que servían de andar de dia y por toda la ciudad abispando en qué casas se podía dar tiento de noche, y en seguir los que sacaban dinero de la Contratacion, o Casa de la Moneda, para ver dónde lo llevaban, y aun dónde lo ponían; y en sabiéndolo, tanteaban la groseza del muro de la tal casa y deseñaban el lugar más conveniente para hacer los guzpátaros - que son agujeros - para facilitar la entrada. En resolución, dijo que era la gente de más o de tanto provecho que había en su hermandad, y que de todo aquello que por su industria se hurtaba llevaban el quinto, como su Majestad de los tesoros; y que, con todo esto, eran hombres de mucha verdad, y muy honrados, y de buena vida y fama, temerosos de Dios y de sus conciencias, que cada día oían misa con estraña devoción.</p>
+
+				<p><q>--Y hay dellos tan comedidos, especialmente estos dos que de aquí se van agora, que se contentan con mucho menos de lo que por nuestros aranceles les toca. Otros dos hay, que son palanquines, los</q></p>
+			</div>
+			
+			<div xml:lang="en">
+				<p><q>at an hour's notice. At present, however, let us go finish our repast; all the rest can be done afterwards."</q></p>
+
+				<p>Juliana was not unwilling to obey her superior, so they all fell to again at the O-be-joyful with so much goodwill that they soon saw the bottom of the basket and the dregs of the great leather bottle. The old ones drank sine fine, the younger men to their hearts' content, and the ladies till they could drink no more. When all was consumed, the two old men begged permission to take their leave, which Monipodio allowed them to do, but charged them to return punctually, for the purpose of reporting all they should see or hear that could be useful to the brotherhood; they assured him they would by no means fail in their duty, and then departed.</p>
+
+				<p>After these gentlemen had left the company, Rinconete, who was of a very inquiring disposition, begged leave to ask Monipodio in what way two persons so old, grave, and formal as those he had just seen, could be of service to their community. Monipodio replied, that such were called "Hornets" in their jargon, and that their office was to poke about all parts of the city, spying out such places as might be eligible for attempts to be afterwards made in the night-time. "They watch people who receive money from the bank or treasury," said he, "observe where they go with it, and, if possible, the very place in which it is deposited. When this is done, they make themselves acquainted with the thickness of the walls, marking out the spot where we may most conveniently make our guzpataros, which are the holes whereby we contrive to force an entrance. In a word, these persons are among the most useful of the brotherhood: and they receive a fifth of all that the community obtains by their intervention, as his majesty does, on treasure trove. They are, moreover, men of singular integrity and rectitude. They lead a respectable life, and enjoy a good reputation, fearing God and regarding the voice of their consciences, insomuch that not a day passes over their heads in which they have not heard mass with extraordinary devotion. There are, indeed, some of them so conscientious, that they content themselves with even less than by our rules would be their due. Those just gone are of this number. We have two others, whose trade it is to remove furniture; and as</p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

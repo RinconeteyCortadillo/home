@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<respStmt>
+					<resp>created by</resp>
+					<name>Rebecca Beattie</name>				
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source, quoted here.</p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+					<p>The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p>Information regarding use of content from the Biblioteca Nacional de Espana can be found at <ref target="http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/">http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>de Robles</surname>
+							<forename>Francisco</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Juan de la Cuesta</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>1613</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares I</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Kelly</surname>
+							<forename>Walter</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Rinconete and Cortadillo. Or, Peter of the Corner and the Little Cutter</title>
+					<publisher>The Literature Network</publisher>
+					<date>1881</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/80a.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p><q>los cuales, como por momentos mudan casas, saben las entradas y salidas de todas las de la ciudad, y cuáles pueden ser de provecho, y cuáles no.</q></p>
+
+				<p><q>--Todo me parece de perlas - dijo Rinconete -, y querría ser de algún provecho a tan famosa cofradía.</q></p>
+
+				<p><q>--Siempre favorece el cielo a los buenos deseos - dijo Monipodio.</q></p>
+
+				<p>Estando en esta plática llamaron a la puerta; salió Monipodio a ver quién era, y preguntándolo, respondieron:</p>
+
+				<p><q>--Abra voace, sor Monipodio, que el Repolido soy.</q></p>
+
+				<p>Oyó esta voz Cariharta, y alzando al cielo la suya, dijo:</p>
+
+				<p><q>--No le abra vuesa merced, señor Monipodio, no le abra a ese marinero de Tarpeya, a ese tigre de Ocaña.</q></p>
+
+				<p>No dejó por esto Monipodio de abrir a Repolido; pero viendo la Cariharta que le abría, se levantó corriendo y se entró en la sala de los broqueles, y cerrando tras sí la puerta, desde dentro, a grandes voces decía:</p>
+
+				<p><q>--Quítenmelo de delante a ese gesto de por demás, a ese verdugo de inocentes, asombrador de palomas duendas.</q></p>
+
+				<p>Maniferro y Chiquiznaque tenían a Repolido, que en todas maneras quería entrar donde la Cariharta estaba; pero como no le dejaban, decía desde afuera:</p>
+
+				<p><q>--¡No haya más, enojada mía; por tu vida que te sosiegues, ansí te veas casada!</q></p>
+
+				<p><q>--¿Casada yo, malino? - respondió la Cariharta -. ¡Mirá en qué tecla toca! ¡Ya quisieras tú que lo fuera contigo, y antes lo sería yo con una sotomía de muerte que contigo!</q></p>
+
+				<p><q>--¡Ea, boba - replicó Repolido -, acabemos ya, que es tarde, y mire no se ensanche por verme hablar tan manso y venir tan rendido; porque ¡vive el Dador!, si se me sube la cólera al campanario que sea peor la recaída que la caída! Humíllese, y humillémonos todos, y no demos de comer al diablo.</q></p>
+
+				<p><q>--Y aun de cenar le daría yo - dijo la Cariharta - por que te llevase donde nunca más mis ojos te viesen.</q></p>
+
+				<p><q>--¿No os digo yo? - dijo Repolido -. ¡Por Dios que voy oliendo, señora trinquete, que lo tengo de echar todo a doce,</q></p>
+			</div>
+			
+			<div xml:lang="en">
+				<p><q>and as they are daily employed in the conveyance of articles for persons who are changing their abode, they know all the ins and outs of every house in the city, and can tell exactly where we may hope for profit and where not."</q></p>
+
+				<p><q>"That is all admirable," replied Rinconete, "and greatly do I desire to be of some use to so noble a confraternity."</q></p>
+
+				<p><q>"Heaven is always ready to favour commendable desires," replied Monipodio.</q></p>
+
+				<p>While the two were thus discoursing, a knock was heard at the door, and Monipodio went to see who might be there. <q>"Open, Sor Monipodio--open," said a voice without; "it is I, Repolido."</q></p>
+
+				<p>Cariharta hearing this voice, began to lift up her own to heaven, and cried out, <q>"Don't open the door, Señor Monipodio; don't let in that Tarpeian mariner--that tiger of Ocaña."</q></p>
+
+				<p>Monipodio opened the door, nevertheless, in despite of her cries; when Cariharta, starting to her feet, hurried away, and hid herself in the room where the bucklers were hung up. There, bolting the door, she bawled from her refuge, <q>"Drive out that black-visaged coward, that murderer of innocents, that white-livered terror of house-lambs, who durst not look a man in the face."</q></p>
+
+				<p>Repolido was meanwhile kept back by Maniferro and Chiquiznaque, as he struggled with all his might to get into the room where Cariharta was hidden. But when he saw that to be impossible, he called to her from without, <q>"Come, come, let us have done with this, my little sulky; by your life, let us have peace, as you would wish to be married."</q> <q>"Married!" retorted the lady, "married to you too! Don't you wish you may get it? See what kind of a string he's playing on now. I would rather be married to a dead notomy."</q> <q>"Oh, bother!" exclaimed Repolido; "let us have done with this, for it is getting late; take care of being too much puffed up at hearing me speak so gently, and seeing me so meek; for, by the light of heaven, if my rage should get steeple-high, the relapse will be worse than the first fit. Come down from your stilts, let us all have done with our tantrums, and not give the devil a dinner."</q></p>
+
+				<p><q>"I will give him a supper to boot, if he will take you from my sight to some place where I may never set eyes on you more," exclaimed the gentle Juliana from within.</q></p>
+
+				<p><q>"Haven't I told you once to beware, Madame Hemp-sack? By the powers, I suspect I must serve out something to you by the dozen,</q></p>	
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

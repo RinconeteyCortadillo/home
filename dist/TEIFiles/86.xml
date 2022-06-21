@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<respStmt>
+					<resp>created by</resp>
+					<name>Rebecca Beattie</name>				
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source, quoted here.</p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+					<p>The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p>Information regarding use of content from the Biblioteca Nacional de Espana can be found at <ref target="http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/">http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>de Robles</surname>
+							<forename>Francisco</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Juan de la Cuesta</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>1613</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares I</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Kelly</surname>
+							<forename>Walter</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Rinconete and Cortadillo. Or, Peter of the Corner and the Little Cutter</title>
+					<publisher>The Literature Network</publisher>
+					<date>1881</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/86.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p><q>persona.</q></p>
+
+				<p><q>--Ese judío tambien - dijo Monipodio - es gran sacre y tiene gran conocimiento. Días ha que no le he visto, y no lo hace bien. Pues a fe que si no se enmienda, que yo le deshaga la corona; que no tiene más órdenes el ladrón que las que tiene el turco, ni sabe más latín que mi madre: ¿Hay más de nuevo?</q></p>
+
+				<p><q>--No - dijo el viejo -; a lo menos que yo sepa.</q></p>
+
+				<p><q>--Pues sea en buen hora - dijo Monipodio -. Coacedes tomen esta miseria, - y repartió entre todos hasta cuarenta reales -, y el domingo no falte nadie, que no faltará nada de lo corrido.</q></p>
+
+				<p>Todos le volvieron las gracias. Tornáronse a abrazar Repolido y la Cariharta, la Escalanta con Maniferro y la Gananciosa con Chiquiznaque, concertando que aquella noche después de haber alzado de obra en la casa, se viesen en la de la Pipota, donde también dijo que iría Monipodio, al registro de la canasta de colar, y que luego había de ir a cumplir y borrar la partida de la miera. Abrazó a Rinconete y a Cortadillo, y echándoles su bendición los despidió, encargándoles que no tuviesen jamás posada cierta ni de asiento, porque así convenía a la salud de todos. Acompañólos Ganchoso hasta enseñarles sus puestos, acordándoles que no faltasen el domingo, porque, a lo que creía y pensaba, Monipodio había de leer una lición de posición acerca de las cosas concernientes a su arte. Con esto se fué, dejando a los dos compañeros admirados de lo que habían visto.</p>
+
+				<p>Era Rinconete, aunque muchacho, de muy buen entendimiento, y tenía un buen natural; y como había andado con su padre en el ejercicio de las bulas, sabía algo de buen lenguaje, y dábale gran risa pensar en los vocablos que había oído a Monipodio y a los demás de su compañía y bendita comunidad, y más cuando por decir per modum suffragii, había dicho per modo de naufragio; y que sacaban el estupendo, por decir estipendio, de lo que se garbeaba; y cuando la Cariharta dijo</p>
+			</div>
+			
+			<div xml:lang="en">
+				<p><q>himself."</q></p>
+
+				<p><q>"The Jew is a keen hawk too," observed Monipodio, "but it is long since I have set eyes on him, and he does not do well in staying away, for, by my faith, if he do not mend, I will cut his crown for him. The scoundrel has received orders as much as the Grand Turk, and knows no more Latin than my grandmother. Have you anything further to report?"</q></p>
+
+				<p>The old man replied that he had not. <q>"Very well," said Monipodio; "Take this trifle among you," distributing at the same time some forty reals among those assembled, "and do not fail to be here on Sunday, when there shall be nothing wanting of the booty."</q> All returned him thanks. Repolido and Cariharta embraced each other; so did Maniferro and Escalanta, and Chiquiznaque and Gananciosa; and all agreed that they would meet that same evening, when they left off work at the house of Dame Pipota, whither Monipodio likewise promised to repair, for the examination of the linen announced in the morning, before he went to his job with the juniper oil.</p>
+
+				<p>The master finally embraced Rinconete and Cortadillo, giving them his benediction; he then dismissed them, exhorting them to have no fixed dwelling or known habitation, since that was a precaution most important to the safety of all. Ganchuelo accompanied the friends for the purpose of guiding them to their districts, and pointing out the limits thereof. He warned them on no account to miss the assembly on Sunday, when it seemed that Monipodio intended to give them a lecture on matters concerning their profession. That done, the lad went away, leaving the two novices in great astonishment at all they had seen.</p>
+
+				<p>Now Rinconete, although very young, had a good understanding, and much intelligence. Having often accompanied his father in the sale of his bulls, he had acquired the knowledge of a more refined language than that they had just been hearing, and laughed with all his heart as he recalled the expressions used by Monipodio, and the other members of the respectable community they had entered. He was especially entertained by the solecising sanctimonies; and by Cariharta calling</p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+

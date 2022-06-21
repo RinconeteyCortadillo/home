@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rinconete y Cortadillo: Digital Edition</title>
+				<respStmt>
+					<resp>created by</resp>
+					<name>Rebecca Beattie</name>				
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>University of Bologna</publisher>
+				<pubPlace>Seville, Spain</pubPlace>
+				<date>2022</date>
+				<availability>
+					<p>Digital Edition based on a print, critical edition, edited by Harry Sieber and published by Cátedra. This digital edition respects the rights outlined in this source, quoted here.</p>
+					<p xml:lang="es">Reservados todos los derechos. El contenido de esta obra está protegido por la Ley, que establece penas de prisión y/o multas, además de las correspondientes indemnizaciones por daños y perjuicios, para quienes reprodujeren, plagiaren, distribuyeren o comunicaren públicamente, en todo o en parte, una obra literaria, artística o científica, o su transformación, interpretación o ejecución artística fijada en cualquier tipo de soporte o comunicada a través de cualquier medio, sin la preceptiva autorización</p>
+					<p>The English text is freely and openly available from <ref target="http://www.online-literature.com/cervantes/exemplary-novels/2/">http://www.online-literature.com/cervantes/exemplary-novels/2/</ref></p>
+					<p>Information regarding use of content from the Biblioteca Nacional de Espana can be found at <ref target="http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/">http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Pie/AvisoLegal/</ref></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>de Robles</surname>
+							<forename>Francisco</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares</title>
+					<publisher>Juan de la Cuesta</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>1613</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Sieber</surname>
+							<forename>Harry</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Novelas ejemplares I</title>
+					<publisher>Ediciones Cátedra</publisher>
+					<pubPlace>Madrid, Spain</pubPlace>
+					<date>2009</date>
+				</bibl>
+				<bibl>
+					<author>	
+						<name>
+							<surname>de Cervantes</surname>
+							<forename>Miguel</forename>
+						</name>
+					</author>
+					<editor>
+						<name>
+							<surname>Kelly</surname>
+							<forename>Walter</forename>
+						</name>
+					</editor>
+					<title xml:lang="es">Rinconete and Cortadillo. Or, Peter of the Corner and the Little Cutter</title>
+					<publisher>The Literature Network</publisher>
+					<date>1881</date>
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>In the 1613 edition of the text, words, or partial words, at the end of a page are repeated, or partially repeated, at the start of the next page. The transription to go alongside the digitisation of the 1613 version standardises this practice by including the whole of the final word at the end of a page, and again at the start of the next page.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	
+	<facsimile>
+		<graphic url="FacsimileImages/85.jpg"/>
+	</facsimile>
+	
+	<text>
+		<body>
+			<div xml:lang="es">
+				<p><q>basta que se les haga el agravio, sin que se diga en público: que es gran cargo de conciencia. A lo menos, más querría yo clavar cien cuernos y otros tantos sambenitos, como se me pagase mi trabajo, que decillo sola una vez, aunque fuese a la madre que me parió.</q></p>
+
+				<p><q>--El esecutor desto es - dijo Rinconete - el Narigueta.</q></p>
+
+				<p><q>--Ya está eso hecho y pagado - dijo Monipodio -. Mirad si hay más, que, si mal no me acuerdo, ha de haber ahí un espanto de veinte escudos; está dada la mitad, y el esecutor es la comunidad toda, y el término es todo el mes en que estamos, y cumpliráse al pie de la letra, sin que falte un tilde, y será una de las mejores cosas que hayan sucedido en esta ciudad de muchos tiempos a esta parte. Dadme el libro, mancebo, que yo sé que no hay más, y sé también que anda muy flaco el oficio; pero tras este tiempo vendrá otro y habrá que hacer mas de lo que quisiéremos: que no se mueve la hoja sin la voluntad de Dios, y no hemos de hacer nosotros que se vengue nadie por fuerza cuanto más que cada uno en su caasa suele ser valiente y no quiere pagar las hechuras de la obra que él se puede hacer por sus manos.</q></p>
+
+				<p><q>--Así es - dijo a esto el Repolido -. Pero mire vuesa merced, señor Monipodio, lo que nos ordena y manda, que se va haciendo tarde y va entrando el calor más que de paso.</q></p>
+
+				<p><q>--Lo que se ha de hacer - respondió Monipodio - es que todos se vayan a sus puestos, y nadie se mude hasta el domingo, que nos juntaremos en este mismo lugar y se repartirá todo lo que hubiere caído, sin agraviar a nadie. A Rinconete el Bueno y a Cortadillo se les da por distrito hasta el domingo desde la Torre del Oro, por defuera de la ciudad, hasta el postigo del Alcázar, donde se puede trabajar a sentadillas con sus flores; que yo he visto a otros de menos habilidad que ellos salir cada dia con mas de veinte reales en menudos, amén de la plata, con una baraja sola, y ésa, con cuatro</q></p>
+			</div>
+			
+			<div xml:lang="en">
+				<p><q>enough that we offer this outrage to the people in question; we need not make it public in our community, for that would be an unnecessary load on your consciences. I would rather nail a hundred horns, and as many sanbenitos, on a man's door, provided I were paid for my work, than once tell that I had done so, were it to the mother that bore me." "The executor of this is Nariqueta," resumed Rinconete. "It is already done and paid for," said Monipodio; "see if there be not something else, for if my memory is not at fault, there ought to be a fright of the value of twenty crowns. One half the money has already been paid, and the work is to be done by the whole community, the time within which it is to come off being all the current month. Nor will we fail in our duty; the commission shall be fulfilled to the very letter without missing a tilde, and it will be one of the finest things that has been executed in this city for many years. Give me the book, boy, I know there is nothing more, and it is certain that business is very slack with us just now; but times will mend, and we shall perhaps have more to do than we want. There is not a leaf on the tree that moves without the will of God, and we cannot force people to avenge themselves, whether they will or not. Besides, many a man has the habit of being brave in his own cause, and does not care to pay for the execution of work which he can do as well with his own hands."</q></p>
+
+				<p><q>"That is true," said Repolido; "but will your worship, Señor Monipodio, see what you have for us to do, as it is getting late, and the heat is coming on at more than a foot-pace."</q></p>
+
+				<p><q>"What you have now to do is this," rejoined Monipodio: "Every one is to return to his post of the week, and is not to change it until Sunday. We will then meet here again, and make the distribution of all that shall have come in, without defrauding any one. To Rinconete and Cortadillo I assign for their district, until Sunday, from the Tower of Gold, all without the city, and to the postern of the Alcazar, where they can work with their fine flowers. I have known those who were much less clever than they appear to be, come home daily with more than twenty reals in small money, to say nothing of silver, all made with a single pack, and that four</q></p>			
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+
